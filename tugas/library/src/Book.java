@@ -22,7 +22,7 @@ public class Book {
 		return author;
 	}
 
-	void print(){
+	void printBook(){
 
             System.out.println(" Title: " +title);
             System.out.println(" ISBN: " + isbn);
