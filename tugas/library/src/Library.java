@@ -1,5 +1,5 @@
 class Library {
-    public ArrayList<Book> book = new ArrayList<>();
+    private List<book> availablebooks
     private Map<Borrower, List<Book>> borrowRecord = new HashMap<>();
 
     void addBook(Book newBook) {

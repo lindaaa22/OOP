@@ -9,5 +9,26 @@ public class Book {
 		this.isbn = isbn;
 		this.author = author;
 	}
+
+	String getName(){
+		return title;
+	}
+
+	String getIsbn(){
+		return isbn;
+	}
+
+	Author getAuthor(){
+		return author;
+	}
+
+	void print(){
+
+            System.out.println(" Title: " +title);
+            System.out.println(" ISBN: " + isbn);
+            System.out.println(" Author: " + author.getName());
+            System.out.println(" Biography: " + author.getDescription());
+            System.out.println("--------------------------------------------");
+	}
 	
 }

@@ -1,8 +1,7 @@
 public class main {
-	public Main()
-	{
-	Author author1 = new author("James Gosling", "Creator of the Java programming language.");
-    author author2 = new author("Robert C. Martin", "Known for his works on software craftsmanship.");
+	public Main(){
+	Author author1 = new Author("James Gosling", "Creator of the Java programming language.");
+    Author author2 = new Author("Robert C. Martin", "Known for his works on software craftsmanship.");
 
     Book book1 = new Book("Java Programming", "123456789", author1);
     Book book2 = new Book("Clean Code", "987654321", author2);
